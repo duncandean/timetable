@@ -18,9 +18,9 @@ type LectureSet
 end
 
 type Timetable
-  Monday::Array
-  Tuesday::Array
-  Wednesday::Array
-  Thursday::Array
-  Friday::Array
+  Monday::Set
+  Tuesday::Set
+  Wednesday::Set
+  Thursday::Set
+  Friday::Set
 end
